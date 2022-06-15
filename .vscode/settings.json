@@ -1,0 +1,4 @@
+//settings for vscode
+{
+    "C_Cpp.errorSquiggles": "Disabled"
+}

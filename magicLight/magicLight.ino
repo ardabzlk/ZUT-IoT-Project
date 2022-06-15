@@ -67,14 +67,14 @@ void handle_OnConnect()
 void handle_led1on()
 {
   LED1status = HIGH;
-  Serial.println("GPIO7 Status: ON");
+  Serial.println("GPIO6 Status: ON");
   server.send(200, "text/html", SendHTML(true));
 }
 // function for turning LED off
 void handle_led1off()
 {
   LED1status = LOW;
-  Serial.println("GPIO7 Status: OFF");
+  Serial.println("GPIO6 Status: OFF");
   server.send(200, "text/html", SendHTML(false));
 }
 // exception for wrong url
